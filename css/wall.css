@@ -1,0 +1,91 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #fff1f1, #fefefe);
+  color: #333;
+  text-align: center;
+}
+
+header {
+  padding: 60px 20px 20px;
+}
+
+header h1 {
+  font-size: 2.4em;
+  color: #db2f45;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #666;
+  max-width: 700px;
+  margin: auto;
+}
+
+.wall-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.entry-card {
+  background: white;
+  padding: 20px;
+  border-left: 6px solid #db2f45;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07);
+  text-align: left;
+}
+
+.entry-card h3 {
+  margin: 0 0 6px;
+  color: #db2f45;
+  font-size: 1.1em;
+}
+
+.entry-card p {
+  margin: 4px 0;
+  font-size: 0.95em;
+  line-height: 1.5em;
+}
+
+.entry-meta {
+  margin-top: 10px;
+  font-size: 0.85em;
+  color: #777;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 30px;
+  background: #f2f2f2;
+}
+
+.back-to-topics {
+  text-decoration: none;
+  background: #555;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.back-to-topics:hover {
+  background: #222;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  .entry-card {
+    padding: 16px;
+  }
+}

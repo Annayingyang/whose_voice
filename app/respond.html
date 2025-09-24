@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Respond – Whose Voice?</title>
+  <link rel="stylesheet" href="../css/respond.css">
+</head>
+<body>
+  <header>
+    <h1 id="topic-heading">Your Response</h1>
+    <p class="subtext">Read the AI answer below. Share your critique and rewrite from your perspective.</p>
+  </header>
+
+  <main class="respond-container">
+    <div class="qa-block">
+      <h3 id="question-text">Question loading...</h3>
+      <p id="ai-answer">AI Answer loading...</p>
+    </div>
+
+    <form id="response-form">
+      <label for="critique">Your Critique</label>
+      <textarea id="critique" required placeholder="What is missing? What's inaccurate?"></textarea>
+
+      <label for="rewrite">Your Rewrite</label>
+      <textarea id="rewrite" required placeholder="Write your version here..."></textarea>
+
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="e.g. A. Mabaso" required />
+
+      <button type="submit">Submit Response</button>
+    </form>
+  </main>
+
+  <footer>
+    <a href="../wall.html" class="view-wall">🔍 View Wall of Responses</a>
+  </footer>
+
+  <script src="../js/respond.js"></script>
+</body>
+</html>
